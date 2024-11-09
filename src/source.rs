@@ -157,7 +157,6 @@ impl<'a> Source<'a> {
     /// or if it is at the end of the string.
     #[inline]
     #[must_use]
-    #[no_mangle]
     pub const fn is_char_boundary(&self, index: usize) -> bool {
         if index == 0 {
             return true;
