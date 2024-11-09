@@ -1,0 +1,13 @@
+[package]
+name = "pull-json"
+version = "0.1.0"
+edition = "2021"
+
+
+[features]
+default = ["std"]
+std = ["alloc"]
+alloc = []
+
+[dependencies]
+# typewit = { version = "1.9.0", default-features = false }
